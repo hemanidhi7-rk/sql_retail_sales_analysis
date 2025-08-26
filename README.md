@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-**Project Title**: Retail Sales Analysis
-**Level**: Beginner – Intermediate
-**Database**: p1_retail_db
+**Project Title**: Retail Sales Analysis  
+**Level**: Beginner  
+**Database**: `SQL_PROJECT`
 
 This project demonstrates my SQL skills in data exploration, cleaning, and business analysis. The dataset represents retail sales transactions, and the goal is to use SQL queries to extract insights such as sales trends, customer behavior, and category performance.
 
@@ -22,8 +22,9 @@ The project is designed to reflect real-world data analyst tasks — creating an
 ## Project Structure
 
 ### 1. Database Setup
-            -Create a database SQL_PROJECT.
-            -Create a table RETAIL_SALES with key columns such as transaction ID, date, time, customer ID, gender, age, category, quantity, price per unit, COGS, and total sale.
+- **Database Creation**: The project starts by creating a database named `p1_retail_db`.
+- **Table Creation**: A table named `retail_sales` is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
+   
 
 '''sql
 CREATE DATABASE SQL_PROJECT;
@@ -45,10 +46,10 @@ CREATE TABLE RETAIL_SALES(
 '''
 
 ### 2. Data Exploration & Cleaning
-           -Total record count
-           -Unique customers
-           -Unique product categories
-           -Identify and remove rows with missing values
+- **Record Count**: Determine the total number of records in the dataset.
+- **Customer Count**: Find out how many unique customers are in the dataset.
+- **Category Count**: Identify all unique product categories in the dataset.
+- **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
 
 ''' sql
 SELECT COUNT(*) AS total_sale
