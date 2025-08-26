@@ -329,17 +329,17 @@ ORDER BY year, month, category;
 
 ## Key Findings
 
---**Customer Demographics**: Sales are distributed across varied age groups and genders.
---**High-Value Transactions**: Many sales crossed 1000, showing premium buyers.
---**Sales Trends**: Certain months show higher sales, indicating seasonality.
---**Top Customers**: A small group of repeat buyers contributes disproportionately to revenue.
---**Shift Analysis**: Sales peak in specific shifts, useful for staffing and offers.
+- **Customer Demographics**: Sales are distributed across varied age groups and genders.
+- **High-Value Transactions**: Many sales crossed 1000, showing premium buyers.
+- **Sales Trends**: Certain months show higher sales, indicating seasonality.
+- **Top Customers**: A small group of repeat buyers contributes disproportionately to revenue.
+- **Shift Analysis**: Sales peak in specific shifts, useful for staffing and offers.
 
 ## Reports
 
---**Sales Summary** – Total sales, category performance, and customer distribution.
---**Trend Analysis** – Monthly and seasonal patterns.
---**Customer Insights** – Top spenders and unique customer counts per category.
+- **Sales Summary** – Total sales, category performance, and customer distribution.
+- **Trend Analysis** – Monthly and seasonal patterns.
+- **Customer Insights** – Top spenders and unique customer counts per category.
 
 ## Conclusion
 
@@ -351,8 +351,6 @@ This project demonstrates SQL skills across database creation, cleaning, and rea
 2. **Set Up the Database**: Run database_setup.sql to create the database and table. Insert the dataset provided in the data/ folder.
 3. **Run the Queries**: Use analysis_queries.sql to execute the SQL queries and reproduce insights.
 
-## Author
-Hemanidhi R.K
-
+## Author - Hemanidhi R.K
 Industrial & Production Engineer | Aspiring Data Analyst  
 Passionate about SQL, Data Analytics & Business Insights  
