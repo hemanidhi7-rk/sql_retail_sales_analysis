@@ -353,5 +353,6 @@ This project demonstrates SQL skills across database creation, cleaning, and rea
 
 ## Author
 Hemanidhi R.K
+
 Industrial & Production Engineer | Aspiring Data Analyst  
 Passionate about SQL, Data Analytics & Business Insights  
